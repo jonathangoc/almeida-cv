@@ -1,6 +1,9 @@
 [profile]
 other = "Profile"
 
+[mentoring]
+other = "Mentoring"
+
 [experience]
 other = "Experience"
 
@@ -16,8 +19,14 @@ other = "Skills"
 [languages]
 other = "Languages"
 
-[diplomas]
-other = "Diplomas"
+[certifications]
+other = "Certifications"
 
 [interests]
 other = "Interests"
+
+[projects]
+other = "Projects"
+
+[volunteer]
+other = "Volunteer"

@@ -1,11 +1,11 @@
-{{ if .Diplomas }}
+{{ if .Certifications }}
 <div class="sideSection">
     <div class="sideSection__heading">
-        <h2 class="sideSection__title">{{ i18n "diplomas" }}</h2>
+        <h2 class="sideSection__title">{{ i18n "certifications" }}</h2>
     </div>
     <div class="sideSection__content">
         <ul>
-            {{ range .Diplomas }}
+            {{ range .Certifications }}
             <li>{{ . | safeHTML }}</li>
             {{ end }}
         </ul>
